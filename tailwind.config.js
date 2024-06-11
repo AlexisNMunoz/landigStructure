@@ -11,6 +11,10 @@ export default {
       },
       colors: {
         "primary": "#BA68C8"
+      },
+      backgroundImage: {
+        "menu-open": 'url("/menu.png")',
+        "menu-close": 'url("/menu-close.png")'
       }
     },
   },
