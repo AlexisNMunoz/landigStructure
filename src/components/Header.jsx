@@ -1,4 +1,4 @@
-import BotonContacto from "./BotonContacto";
+
 
 export default function Header() {
 
@@ -15,7 +15,6 @@ export default function Header() {
                         <li><a className="hover:text-violet-700 transition-colors" href="#">Inicio</a></li>
                         <li><a className="hover:text-violet-700 transition-colors" href="#">Proyectos</a></li>
                         <li><a className="hover:text-violet-700 transition-colors" href="#">Skills</a></li>
-                        <li><BotonContacto /></li>
                     </ul>
                 </div>
 
