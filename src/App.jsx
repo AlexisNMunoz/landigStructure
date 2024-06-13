@@ -9,8 +9,9 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <div className="fixed -z-10 inset-0 right-0 blur-lg lg:hidden">
-          <img src="./fondo.jpg" alt="fondo" className="w-full" />
+
+        <div className="fixed h-full -z-10 inset-0  blur-lg">
+          <img src="./fondolg.png" alt="fondo" className="w-full object-cover h-full" />
         </div>
 
       </main>
