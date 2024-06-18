@@ -13,6 +13,17 @@ export default function Header() {
                         <li><a className="hover:text-violet-700 transition-colors" href="#">Inicio</a></li>
                         <li><a className="hover:text-violet-700 transition-colors" href="#">Proyectos</a></li>
                         <li><a className="hover:text-violet-700 transition-colors" href="#">Skills</a></li>
+                        <div className="gap-4 basis-0 justify-end items-center flex md:hidden">
+                            <a href="#" className="w-8 h-8">
+                                <img src="/github.png" alt="github" />
+                            </a>
+                            <a href="#" className="w-8 h-8">
+                                <img src="/linkedin.png" alt="linkedin" />
+                            </a>
+                            <a href="#" className="w-8 h-8">
+                                <img src="/xt.png" alt="linkedin" />
+                            </a>
+                        </div>
                     </ul>
                 </div>
 
