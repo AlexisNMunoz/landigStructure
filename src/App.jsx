@@ -1,3 +1,5 @@
+
+import AboutMe from "./components/AboutMe"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 
@@ -9,8 +11,9 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <AboutMe />
 
-        <div className="fixed h-full -z-10 inset-0  blur-lg">
+        <div className=" fixed h-full -z-10 inset-0  blur-lg">
           <img src="./fondolg.png" alt="fondo" className="w-full object-cover h-full" />
         </div>
 
