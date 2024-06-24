@@ -1,4 +1,3 @@
-
 export default function AboutMe() {
     return (
         <section className="h-screen flex justify-center items-center">
@@ -12,7 +11,6 @@ export default function AboutMe() {
                 <div>
                     <img src="/about.svg" alt="imagen" className="max-w-96 mx-auto" />
                 </div>
-
             </div>
         </section>
     )
